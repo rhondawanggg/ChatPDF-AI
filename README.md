@@ -101,9 +101,4 @@ PDF Chat/
 ## 依赖环境
 - Python 3.8+
 - Node.js 16+
-
-## 致谢
-- [Monica ChatPDF](https://monica.im/chatpdf)
-- [OpenAI](https://openai.com/)
-- [FastAPI](https://fastapi.tiangolo.com/)
-- [TailwindCSS](https://tailwindcss.com/) 
+  
