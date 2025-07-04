@@ -1,10 +1,38 @@
 # 智能 PDF 问答小助手
 
-本项目包含前端（React）和后端（FastAPI），支持上传 PDF 并基于内容进行智能问答。
+本项目包含前端（React）和后端（FastAPI），支持上传 PDF 文件并基于内容进行智能问答。
 
 ---
+## 技术栈
 
-## 快速开始
+- 前端：React 18 + TailwindCSS
+- 后端：FastAPI + Python + OpenAI GPT + PyPDF2
+
+---
+## 项目结构
+
+```
+PDF Chat/
+  backend/
+    main.py
+    requirements.txt
+  frontend/
+    package.json
+    tailwind.config.js
+    postcss.config.js
+    index.css
+    src/
+      App.js
+      index.js
+      components/
+        UploadBox.jsx
+        ChatInterface.jsx
+        MessageBubble.jsx
+  README.md
+```
+
+---
+## 开发环境设置
 
 ### 1. 启动后端（FastAPI）
 
@@ -38,4 +66,6 @@ npm start
 
   
 ---
+## 环境变量
 
+- 请参考 .env 文件设置必要的环境变量。
