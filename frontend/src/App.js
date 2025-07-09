@@ -23,7 +23,7 @@ export default function App() {
       { role: "user", content: question }
     ]);
     try {
-      const res = await fetch("http://localhost:8000/chat", {
+      const res = await fetch("https://chatpdf-ai-backend.onrender.com/chat", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams({ pdf_id: pdfId, query: question })
