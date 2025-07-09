@@ -25,7 +25,7 @@ export default function UploadBox({ onSuccess }) {
     formData.append("file", file);
     try {
       // 使用完整后端地址
-      const res = await fetch("http://192.168.20.189:8000/upload_pdf/", {
+      const res = await fetch("https://chatpdf-ai-backend.onrender.com/upload_pdf/", {
         method: "POST",
         body: formData,
       });
