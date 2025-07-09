@@ -30,6 +30,7 @@ async def upload_pdf(file: UploadFile = File(...)):
             text += page.extract_text() or ""
         if not text:
             return {"error": "PDF内容为空或无法提取文本"}
+        text = text.encode("utf-8", errors="ignore").decode("utf-8")
         pdf_id = "demo"  # 实际可用 uuid
         pdf_store[pdf_id] = text
         return {"pdf_id": pdf_id, "message": "PDF uploaded and processed."}
