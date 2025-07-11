@@ -68,4 +68,4 @@ npm start
 ---
 ## Environment Configuration
 
-- Required environment variables are configured in the `.env` file.
+- Required environment variables should be configured in `.env` file.
