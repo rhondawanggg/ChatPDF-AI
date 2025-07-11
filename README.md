@@ -34,7 +34,7 @@ PDF Chat/
 ---
 ## Development Environment Setup
 
-### 1. Start the Backend  (FastAPI)
+### 1. Start the Backend (FastAPI)
 
 Open a terminal in the `backend` directory and run the following commands:
 
@@ -47,7 +47,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ---
 
-### 2. Start the Frontend(React）
+### 2. Start the Frontend (React）
 
 Open another terminal, navigate to the `frontend` directory, and run:
 
