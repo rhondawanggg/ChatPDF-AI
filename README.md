@@ -1,15 +1,15 @@
-# 智能 PDF 问答小助手
+# PDF Q&A Assistant
 
-本项目包含前端（React）和后端（FastAPI），支持上传 PDF 文件并基于内容进行智能问答。
-
----
-## 技术栈
-
-- 前端：React 18 + TailwindCSS
-- 后端：FastAPI + Python + OpenAI GPT + PyPDF2
+This project includes a frontend (React) and a backend (FastAPI), supporting PDF file uploads and intelligent Q&A based on the content.
 
 ---
-## 项目结构
+## Tech Stack
+
+- Frontend：React 18 + TailwindCSS
+- Backend：FastAPI + Python + OpenAI GPT + PyPDF2
+
+---
+## Project Structure
 
 ```
 PDF Chat/
@@ -32,11 +32,11 @@ PDF Chat/
 ```
 
 ---
-## 开发环境设置
+## Development Environment Setup
 
-### 1. 启动后端（FastAPI）
+### 1. Start the Backend (FastAPI)
 
-在 `backend` 目录下打开终端，依次运行：
+Open a terminal in the `backend` directory and run the following commands:
 
 ```bash
 cd backend
@@ -47,9 +47,9 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 
 ---
 
-### 2. 启动前端（React）
+### 2. Start the Frontend（React）
 
-另开一个终端，进入 `frontend` 目录，依次运行：
+Open another terminal, navigate to the `frontend` directory, and run:
 
 ```bash
 cd frontend
@@ -59,13 +59,13 @@ npm start
 
 ---
 
-### 3. 访问
+### 3. Access
 
-- 前端页面：http://localhost:3000
-- 后端接口：http://localhost:8000
+- Frontend：http://localhost:3000
+- Backend：http://localhost:8000
 
   
 ---
-## 环境变量
+## Environment Configuration
 
-- 请参考 .env 文件设置必要的环境变量。
+- Required environment variables are configured in the `.env` file.
