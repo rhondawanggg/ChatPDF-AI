@@ -34,7 +34,7 @@ PDF Chat/
 ---
 ## Development Environment Setup
 
-### 1. Start the Backend (FastAPI)
+### 1. Start the Backend  (FastAPI)
 
 Open a terminal in the `backend` directory and run the following commands:
 
